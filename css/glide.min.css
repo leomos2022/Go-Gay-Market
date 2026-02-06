@@ -1,0 +1,9 @@
+:root{--glide-x-margin:clamp(1px,2vw,2rem)}.glide:not(.glide--inactive){box-sizing:border-box;position:relative}
+.glide:not(.glide--inactive) *{box-sizing:inherit}.glide:not(.glide--inactive) .glide__track{overflow:hidden;margin-bottom:0}
+.glide:not(.glide--inactive) .glide__slides{position:relative;width:100%;list-style:none;backface-visibility:hidden;transform-style:preserve-3d;touch-action:pan-Y;overflow:hidden;margin:0;padding:0;white-space:nowrap;display:flex;flex-wrap:nowrap;will-change:transform}
+.glide:not(.glide--inactive) .glide__slides--dragging{-webkit-user-select:none;-moz-user-select:none;user-select:none}
+.glide:not(.glide--inactive) .glide__slide{width:100%;flex-shrink:0;white-space:normal;-webkit-user-select:none;-moz-user-select:none;user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}
+.glide:not(.glide--inactive) .glide__slide a{-webkit-user-select:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none}
+.glide:not(.glide--inactive) .glide__slide .embed-container{margin-bottom:0}.glide:not(.glide--inactive) .glide__arrows{-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;user-select:none;position:static !important}
+.glide:not(.glide--inactive) .glide__bullets{-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}
+.glide:not(.glide--inactive) .glide--rtl{direction:rtl}.glide--inactive .glide__arrows,.glide--inactive .glide__bullets{display:none}
