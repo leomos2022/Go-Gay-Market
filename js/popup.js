@@ -33,15 +33,11 @@ function cmAddModalContent() {
             padding: 18px 18px 0 18px;
             margin-bottom: 12px;
         }
-        .pq-popup-badge {
-            display: inline-block;
-            font-size: 12px;
-            letter-spacing: 0.04em;
-            text-transform: uppercase;
-            color: #ffffff;
-            background: #987fb8;
-            padding: 4px 8px;
-            border-radius: 999px;
+        .pq-popup-logo {
+            height: 42px;
+            width: auto;
+            max-width: 220px;
+            display: block;
             margin-bottom: 10px;
         }
         .pq-popup-title {
@@ -73,9 +69,9 @@ function cmAddModalContent() {
     <div id="cm-popup-overlay" style="position:fixed; background:rgba(48, 69, 92, 0.1200); z-index:99999; height:100%; width:100%; top:0; left:0; overflow-y:auto;">
         <div id="p-container">
             <div class="pq-popup-card">
-                <div class="pq-popup-badge">ParcheGay</div>
-                <h2 class="pq-popup-title">Emprendimientos gays en Colombia, en un solo lugar</h2>
-                <p class="pq-popup-text">Promocionamos los emprendimientos gays a nivel nacional en Colombia: tiendas virtuales, startups y marcas emergentes. Aquí puedes descubrir, apoyar y comprar productos directamente desde la aplicación.</p>
+                <img class="pq-popup-logo" src="images/logotransparent.png" alt="Parche Queer">
+                <h2 class="pq-popup-title">Comunidad, ofertas y acción en Parche Queer</h2>
+                <p class="pq-popup-text">Recibe novedades de emprendimientos, eventos locales y oportunidades para apoyar marcas diversas en Colombia.</p>
             </div>
             <div id="cmsgpf-close-btn"
                 style="height:16px;width:16px;display:inline-block;position:absolute;cursor:pointer;top:0;right:0;margin-top:10px;margin-right:10px;">
@@ -85,8 +81,8 @@ function cmAddModalContent() {
                         fillRule="evenodd" />
                 </svg>
             </div>
-            <iframe id="cm-popup-iframe" onload="cmGetIframeHeight(this)" title="Email signup form"
-                src="https://confirmsubscription.com/h/y/23E816E85CC14440/forms/FA0ED18B88154542" width="545" height="935"
+            <iframe id="cm-popup-iframe" onload="cmGetIframeHeight(this)" title="Formulario de suscripción"
+                src="popup-form.html" width="545" height="935"
                 frameborder="0" marginwidth="0" margin="0" height="0" scrolling="no" allowfullscreen></iframe>
         </div>
     </div>`;

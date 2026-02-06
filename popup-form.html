@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Suscripción Parche Queer</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: "Barlow Condensed", Arial, sans-serif;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #1f1f1f;
+    }
+    .form-wrap {
+      padding: 18px 18px 24px 18px;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 12px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #ffffff;
+      background: #111111;
+      padding: 4px 8px;
+      border-radius: 999px;
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-size: 22px;
+      margin: 0 0 8px 0;
+    }
+    p {
+      font-size: 15px;
+      line-height: 1.5;
+      margin: 0 0 16px 0;
+      color: #4a4a4a;
+    }
+    label {
+      display: block;
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+    input[type="text"],
+    input[type="email"] {
+      width: 100%;
+      padding: 10px 12px;
+      border-radius: 8px;
+      border: 1px solid #d7d7d7;
+      font-size: 14px;
+      margin-bottom: 14px;
+      box-sizing: border-box;
+    }
+    .checkbox-row {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      font-size: 13px;
+      color: #4a4a4a;
+      margin-bottom: 16px;
+    }
+    .checkbox-row input {
+      margin-top: 3px;
+    }
+    a {
+      color: #111111;
+    }
+    button {
+      width: 100%;
+      border: none;
+      background: linear-gradient(135deg, #E2566F, #ED9A62, #FCE269, #55B47A, #4F94D0, #987FB8);
+      color: #fff;
+      font-size: 15px;
+      font-weight: 700;
+      padding: 12px 14px;
+      border-radius: 999px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-wrap">
+    <div class="badge">Parche Queer</div>
+    <h1>Esperanza, comunidad y acción en tu inbox</h1>
+    <p>Suscríbete para recibir ofertas del marketplace, eventos locales, historias inspiradoras y formas de apoyar emprendimientos diversos en Colombia.</p>
+
+    <form>
+      <label for="name">Nombre</label>
+      <input id="name" type="text" placeholder="Tu nombre" />
+
+      <label for="email">Correo electrónico *</label>
+      <input id="email" type="email" placeholder="Tu correo" required />
+
+      <div class="checkbox-row">
+        <input id="consent" type="checkbox" required />
+        <label for="consent">
+          Acepto recibir comunicaciones por correo electrónico *
+          <br />
+          <a href="#">Política de privacidad</a>
+        </label>
+      </div>
+
+      <button type="submit">Únete a la comunidad</button>
+    </form>
+  </div>
+</body>
+</html>
