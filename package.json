@@ -6,9 +6,7 @@
   "workspaces": [
     "apps/mobile",
     "apps/web",
-    "apps/backend",
-    "apps/admin-panel",
-    "packages/*"
+    "apps/backend"
   ],
   "scripts": {
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:mobile\" \"npm run dev:web\"",
@@ -30,6 +28,7 @@
     "db:seed": "cd apps/backend && npm run seed"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "concurrently": "^8.2.0",
